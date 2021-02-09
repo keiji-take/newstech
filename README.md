@@ -25,3 +25,12 @@
 - has_many: likes, dependent: :destroy
 
 
+##likesテーブル
+|   column   |   type     | options           |
+|---------------------------------------------|
+| post       | references | foreign_key: true  null: false    |
+| user       | references | foreign_key: true  null: false    |
+
+###Association
+- 
+
