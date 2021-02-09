@@ -13,3 +13,15 @@
 - has_many: likes
 
 
+##usersテーブル
+|   column   |   type     | options        |
+|------------------------------------------|
+| username   |  string    | null: false    |
+| email      |  string    | null: false    |
+| encrypted_password |  string    | null: false    |
+| tel_number | integer    |  null: false   |
+
+###Association
+- has_many: likes, dependent: :destroy
+
+
