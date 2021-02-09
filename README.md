@@ -43,6 +43,15 @@
 ###Association
 - 
 
+##liked_articlesテーブル
+|   column   |   type     | options           |
+|---------------------------------------------|
+| post       | references | foreign_key: true  null: false    |
+| like       | references | foreign_key: true  null: false    |
+
+###Association
+- 
+
 
 
 
