@@ -107,6 +107,9 @@ GEM
     ffi (1.14.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    hpricot (0.8.6)
+    html2slim (0.2.0)
+      hpricot
     i18n (1.8.8)
       concurrent-ruby (~> 1.0)
     image_processing (1.12.1)
@@ -334,6 +337,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   devise
   factory_bot_rails
+  html2slim
   image_processing (~> 1.2)
   jbuilder (~> 2.7)
   jquery-rails
